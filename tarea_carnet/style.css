@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&family=Roboto&display=swap');
+
+body {
+    background-color: rgb(69, 240, 26);
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carnet {
+    background-color: #c6d1d7;
+    background-image: url(fondo.png);
+    height: 600px;
+    width: 700px;
+  }
+  
+  .letra-maquina {
+    font-family: 'Fraunces', serif;
+
+  }
+  
+  .letra-computador {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .letra-colombia {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+
+  #carnet__contenido p{
+  
+    margin: 4px;
+  
+  }
+
+  .carnet-informacion__label{
+
+    font-size: 15px;
+    
+    
+    }
+
+    .carnet-foto-img{
+        position: absolute;
+        left: 480px;
+        top: 263px;
+    
+    }
+
+    .carnet-encabezado {
+        position: absolute;
+        left: 620px;
+        top: 157px;
+        font-size: 40px;
+    }
+
+  
+
+  .carnet-informacion__box-nombre{
+position: absolute;
+left: 650px;
+top: 243px;
+
+}
+
+
+
+.carnet-informacion__box-nacionalidad {
+position: absolute;
+left: 650px;
+    top: 302px;
+
+}
+
+.carnet-informacion__box-fechanacimiento {
+    position: absolute;
+    left: 650px;
+    top: 369px;
+
+
+}
+
+
+.carnet-informacion__box-autoridad {
+
+    position: absolute;
+    left: 650px;
+    top: 438px;
+
+}
+
+
+
+
+
+  
+
+
+
