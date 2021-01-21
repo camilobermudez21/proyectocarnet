@@ -1,0 +1,30 @@
+
+
+body {
+  background-color: green;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carnet {
+  background-color: #c6d1d7;
+  background-image: url(fondo.png);
+  height: 600px;
+  width: 700px;
+}
+
+.letra-maquina {
+  font-family: monospace;
+}
+
+.letra-computador {
+  font-family: sans-serif;
+}
+
+#carnet__contenido p{
+
+  margin: 100px;
+
+}

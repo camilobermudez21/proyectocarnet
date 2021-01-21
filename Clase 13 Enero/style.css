@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+/*PROPIEDADES GENERALES*/
+body {
+  background: gray;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+}
+
+hr {
+  border-top: 8px dashed lime;
+  margin: 30px 0 60px 0;
+}
+
+pre, em {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+  background: whitesmoke;
+  box-sizing: border-box;
+  margin: 60px auto;
+  max-width: 1024px;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.clear-both {
+  clear: both;
+}
+
+/*PROPIEDADES DE APARIENCIA PARA MOSTRAR EL EJEMPLO*/
+.propiedad__imagen {
+  border: 5px solid lime;
+  margin: 10px auto;
+}
+
+.propiedad__ejemplo {
+  border: 3px solid lime;
+  font-family: 'Source Code Pro', monospace;
+  min-height: 200px;
+  padding: 20px;
+  position: relative;
+}
+
+.propiedad {
+  display: flex;
+  flex-direction: column;
+}
+
+/*INICIO EJERCICIO */
+
+/*PROPIEDAD STATIC*/
+.position__hijo {
+  background-color: lime;
+  height: 50px;
+  padding: 30px;
+  width: 50px;
+}
+
+.position__absolute {
+  position: absolute;
+  top: 0%;
+  right: 0;
+}
+
+.position__fixed {
+  position: fixed;
+  top: 0%;
+  right: 0;
+}
+
+.position__sticky {
+  position: sticky;
+  top: 0;
+}
+
+.position__relative-box {
+  display: block;
+}
+
+.position__relative {
+  left: 70px;
+  position: absolute;
+  top: 70px;
+}
+
+.position__static-box {
+  position: static;
+}
+
+.position__static {
+  left: 70px;
+  position: absolute;
+  bottom: 70px;
+}
+
+.propiedad__ejemplo-static {
+  position: static;
+}
+
+/*PROPIEDAD DISPLAY*/
+.display__block {
+  display: block;
+}
+
+.display__block-1 {
+  float: left;
+  width: 100px;
+}
+
+.display__block-2 {
+  float: left;
+  width: 20px;
+}
+
+.display__inline {
+  display: inline;
+}
+
+.display__inline-1 {
+  width: 100px;
+}
+
+.display__inline-2 {
+  width: 100px;
+}
+
+.display__inline-block {
+  display: inline-block;
+}
+
+.display__inline-block-1 {
+  width: 100px;
+}
+
+.display__inline-block-2 {
+  width: 100px;
+}
